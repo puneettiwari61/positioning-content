@@ -1,0 +1,287 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*---------------------------------*/
+* {
+  box-sizing: border-box;
+}
+
+.wrapper {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+/*--------floats and clearfix-----*/
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
+.clearfix::before,
+.clearfix::after {
+	content: "";
+	display: table;
+}
+.clearfix::after {
+	clear: both;
+}
+
+
+
+/*-------anchor tags------*/
+a {
+	text-decoration: none;
+	/*color: white;*/
+}
+
+.lnav {
+	font-weight: bold;
+	color: white;
+}
+
+.rnav {
+	word-spacing: 18px;
+}
+
+.rnav1 {
+	color: #B9CDE5;
+}
+
+/*-----header-------*/
+.top {
+	background-color: #5385C1;
+}
+
+.navi {
+	padding-top: 60px;
+}
+
+.heading-1 {
+	text-align: center;
+	padding-top: 90px;
+	padding-bottom: 140px;
+}
+
+h2 {
+	font-size: 45px;
+	color: white;
+	font-weight: lighter;
+	letter-spacing: 2px;
+}
+
+.para-1 {
+	color: #B9CDE5;
+	padding-top: 30px;
+}
+
+/*---------main section-1---------*/
+.col {
+	width: 33%;
+	padding-bottom: 80px;
+	line-height: 1.5;
+	padding-top: 80px;
+	
+}
+
+.col-1 {
+	padding-left: 0;
+	padding-right: 150px;
+}
+
+.col-2 {
+	padding-left: 80px;
+	padding-right: 80px;
+}
+
+.col-3 {
+	padding-left: 150px;
+	padding-right: 0;
+}
+
+h3 {
+	color: #5385C1;
+}
+
+.para-2 {
+	color: #BBBBBB;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.box-1 {
+	background-color: #5385C1;
+	color: white;
+	box-shadow: none;
+	border: 0;
+	padding: 8px 13px;
+	font-weight: bold;
+	font-size: 12px;
+}
+
+.para-3 {
+	color: white;
+}
+
+/*--------section-2-----------*/
+
+.heading-2 {
+	text-align: center;
+	padding-top: 90px;
+	padding-bottom: 75px;
+}
+
+.section-2 {
+	background-color: #5385C1;
+	padding-bottom: 80px;
+}
+
+.cont {
+	width: 21%;
+	border: 1px solid #BBBBBB;
+	text-align: center;
+}
+
+.cont-1 {
+	margin-right: 30px;
+}
+
+.cont-2 {
+	margin-right: 30px;
+	margin-left: 30px;
+}
+
+.cont-3 {
+	margin-right: 30px;
+	margin-left: 30px;
+}
+
+.cont-4 {
+	margin-left: 30px;
+}
+
+.image-1 {
+	border-radius: 50%;
+	padding-top: 30px;
+	padding-bottom: 35px;
+}
+
+h5 {
+	color: white;
+}
+
+.para-3 {
+	color: #B9CDE5;
+	padding-top: 8px;
+	padding-bottom: 30px;
+}
+
+
+/*------section-3---------*/
+
+.head-3 {
+	color: #5385C1;
+}
+.para-4 {
+	color: #BBBBBB;
+	padding-top: 25px;
+	padding-bottom: 30px;
+}
+
+.box {
+	width: 50%;
+}
+
+.box-2 {
+	padding-right: 30px;
+}
+
+.box-3 {
+	padding-left: 30px;
+}
+
+.head-4 {
+	padding-top: 30px;
+}
+
+.section-3 {
+	padding-bottom: 80px;
+}
+
+.heading-2-1 {
+	padding-bottom: 50px;
+}
+
+/*----------footer-----------*/
+
+hr {
+	color: #BBBBBB;
+	opacity: 0.6;
+}
+
+.lasticons {
+	color: #5385C1;
+}
+
+.icons {
+	word-spacing: 28px;
+	padding-top: 40px;
+}
+
+footer {
+	padding-top: 50px;
+	padding-bottom: 40px;
+}
+
+.para-last {
+	color: #BBBBBB;
+	padding-top: 40px;
+}
